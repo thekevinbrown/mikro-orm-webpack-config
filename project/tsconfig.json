@@ -5,6 +5,7 @@
     "esModuleInterop": true,
     "isolatedModules": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "jsx": "react",
     "lib": ["es6"],
     "module": "commonjs",
@@ -15,10 +16,8 @@
     "noUnusedLocals": true,
     "noImplicitThis": true,
     "strictNullChecks": true,
-    "removeComments": true,
     "declaration": true,
     "sourceMap": true,
-    "skipLibCheck": true,
     "outDir": "lib"
   },
   "exclude": ["**/node_modules/*", "**/lib/*"]
