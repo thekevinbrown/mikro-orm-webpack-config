@@ -10,7 +10,7 @@ export class User implements IdEntity<User> {
   @PrimaryKey({ type: "number" })
   id!: number;
 
-  @Enum({ type: "UserType" })
+  @Enum(() => UserType)
   type!: UserType;
 
   @Property({ type: "string" })
