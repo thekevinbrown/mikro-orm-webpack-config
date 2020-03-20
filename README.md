@@ -5,8 +5,9 @@ Tests different webpack configs with MikroORM.
 To reproduce:
 
 1. Clone the repo
-2. `npm i`
-3. `npm run new`
+2. `cd project`
+3. `npm i`
+4. `npm run new`
 
 Example output:
 
