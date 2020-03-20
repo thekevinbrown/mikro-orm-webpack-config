@@ -1,0 +1,31 @@
+{
+  "name": "mikro-orm-webpack-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "new": "rm -f ../output/bundle.js && webpack --config webpack.new.config.js && cd ../output && node index",
+    "old": "rm -f ../output/bundle.js && webpack --config webpack.old.config.js && cd ../output && node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thekevinbrown/mikro-orm-webpack-config.git"
+  },
+  "author": "Kevin Brown <kevin.brown@techin.site>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thekevinbrown/mikro-orm-webpack-config/issues"
+  },
+  "homepage": "https://github.com/thekevinbrown/mikro-orm-webpack-config#readme",
+  "devDependencies": {
+    "ts-loader": "6.2.1",
+    "typescript": "3.8.3",
+    "webpack": "4.42.0",
+    "webpack-cli": "3.3.11"
+  },
+  "dependencies": {
+    "mikro-orm": "3.3.5",
+    "pg": "7.18.2",
+    "pg-native": "3.0.0"
+  }
+}
