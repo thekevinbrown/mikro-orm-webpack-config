@@ -28,6 +28,11 @@ Error: Cannot find module 'mikro-orm'
 
 Or to test the old config, `npm run old`.
 
+With MikroORM 3.5.0+ it works!
+
+(Old output from Mikro 3.4.1):
+
+<s>
 Example output:
 
 ```
@@ -48,3 +53,4 @@ Example output:
 ```
 
 If I remove the enum from the User entity, then it works.
+</s>
