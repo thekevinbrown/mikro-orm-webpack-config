@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/thekevinbrown/mikro-orm-webpack-config#readme",
   "devDependencies": {
-    "ts-loader": "6.2.2",
+    "ts-loader": "9.4.2",
     "typescript": "3.8.3",
-    "webpack": "4.42.0",
-    "webpack-cli": "3.3.11"
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.1"
   },
   "dependencies": {
     "mikro-orm": "3.5.1",
